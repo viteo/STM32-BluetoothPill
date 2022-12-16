@@ -3093,7 +3093,7 @@
     (uuid 1a9756fb-2fe4-4729-82a6-8fc705d912bc)
     (property "Reference" "U2" (id 0) (at 151.13 17.78 0))
     (property "Value" "STM32WB55CEU6TR" (id 1) (at 151.13 20.32 0))
-    (property "Footprint" "lib:QFN50P700X700X60-49N" (id 2) (at 138.43 76.2 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm" (id 2) (at 138.43 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 151.13 71.12 0)
@@ -3635,7 +3635,7 @@
     (property "Value" "Antenna_Shield" (id 1) (at 135.89 137.7949 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right" (id 2) (at 133.35 134.62 0)
+    (property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left" (id 2) (at 133.35 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 133.35 134.62 0)
@@ -4462,7 +4462,7 @@
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/61f290f2-e1eb-4f8a-b92c-38159b53d6bd"
-      (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Right")
+      (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Left")
     )
     (path "/86ca5ff7-caf9-44e0-8879-59882912f851"
       (reference "C1") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -4579,7 +4579,7 @@
       (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/1a9756fb-2fe4-4729-82a6-8fc705d912bc"
-      (reference "U2") (unit 1) (value "STM32WB55CEU6TR") (footprint "lib:QFN50P700X700X60-49N")
+      (reference "U2") (unit 1) (value "STM32WB55CEU6TR") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm")
     )
     (path "/69eb8847-3a16-4dc2-b290-73e92782f93c"
       (reference "U3") (unit 1) (value "LD3985M33R_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23-5")
